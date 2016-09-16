@@ -1,0 +1,40 @@
+namespace Lab2
+{
+    class Program
+    {
+        static void Main(string[] args)
+
+        {
+            // [type] [variable-name] [semi-colon] 
+            // I dont fully understand.  [System.Console.] and when to use it. 
+  
+        System.Console.Write("First Name");
+            string name = "Dan";
+        System.Console.Write("Middle Initial");
+            string middleInitial = "J";
+        System.Console.Write("Last Name");
+            string lastName = "Barrett";
+            string fullName = name + middleInitial + lastName;
+
+        System.Console.Write("Height In Feet:");
+            int heightFt = 6;
+            double extraInches = .5;
+            double totalInches = heightFt * 12 + extraInches;
+            double heightCM = totalInches * 2.54;
+
+            System.Console.Write("Age")
+            int age = 22;
+            System.Console.Write("Are You A Citizen?")
+            bool isCitizen = true;
+            System.Console.Write("Can You Vote?")
+            bool canVote = true;
+            
+
+
+
+        }
+
+
+    }
+}
+// double can hold a decimal place
